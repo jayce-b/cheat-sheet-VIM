@@ -1,0 +1,44 @@
+*
+{
+font-family:courier;
+background-color:black;
+color:white;
+}
+
+h1
+{
+color:yellow;
+
+}
+
+table
+{
+border-collapse:collapse;
+width:100%;
+max-width:700px;
+min-width:400px;
+text-align:left;
+margin-bottom:15px;
+}
+
+caption
+{
+caption-side:top;
+font-weight:bold;
+font-style:normal;
+margin:4px;
+text-align: left;
+color:yellow;
+}
+
+table,td
+{
+border: 1px solid silver;
+}
+
+td
+{
+height: 24px;
+padding:4px;
+vertical-align:middle;
+}

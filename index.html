@@ -4,30 +4,30 @@
 		
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- POUR LA PARTIE RESPONSIVE <link rel="stylesheet" media="screen and (max-widtd: 1024px" href="petite_resolution.css"/>-->
+		<link rel="stylesheet" media="screen and (max-widtd: 1280px" href="petite_resolution.css"/>
 	<title>Cheat Sheet - VIM pour les débutants</title>
 	</head>
 
 	<body>
 			
-		<h1>My Cheat Sheet : VIM pour les débutants</h1>
+		<h1>My Cheat Sheet : VIM pour les debutants</h1>
 			<section>
 				<table>
 					<caption>Les Différents Modes dans VIM</caption>
 						<tr>
-							<td>par défaut</td>
+							<td class="commande">par défaut</td>
 							<td>mode variable</td>
 						</tr>	
 						<tr>
-							<td>i</td>
+							<td class="commande">i</td>
 							<td>mode insertion</td>
 						</tr>	
 						<tr>
-							<td>Echap</td>
+							<td class="commande">Echap</td>
 							<td>revenir en mode variable</td>
 						</tr>	
 						<tr>
-							<td>v,V</td>
+							<td class="commande">v,V</td>
 							<td>mode visuel</td>
 						</tr>
 				</table>
@@ -35,148 +35,148 @@
 				<table>
 					<caption>Édition Fichier</caption>
 						<tr>
-							<td>:e [nom fichier]</td>
+							<td class="commande">:e [nom fichier]</td>
 							<td>ouvre un nouveau fichier (TAB pour l'auto-complétion)</td>
 						</tr>	
 						<tr>
-							<td>:e/chemin/dossier</td>
+							<td class="commande">:e/chemin/dossier</td>
 							<td>explorer dans l'arborescence (TAB pour l'auto-complétion)</td>
 						</tr>	
 						<tr>
-							<td>:w</td>
+							<td class="commande">:w</td>
 							<td>sauvegarder le fichier en cours</td>
 						</tr>	
 						<tr>
-							<td>:q</td>
+							<td class="commande">:q</td>
 							<td>quitter (msg erreur : impossible de quitter sans sauvegarder</td>
 						</tr>
 						<tr>
-							<td>:q!</td>
+							<td class="commande">:q!</td>
 							<td>forcer à quitter</td>
 						</tr>	
 						<tr>
-							<td>:!rm [nomdufichier]</td>
+							<td class="commande">:!rm [nomdufichier]</td>
 							<td>supprime le fichier</td>
 						</tr>	
 						<tr>
-							<td>CTRL-P</td>
+							<td class="commande">CTRL-P</td>
 							<td>Trouver des fichiers</td>
 						</tr>	
 						<tr>
-							<td>v,V</td>
+							<td class="commande">v,V</td>
 							<td>mode visuel</td>
 						</tr>
 				</table>
 				<table>
 					<caption>Navigation dans le Fichier</caption>
 						<tr>
-							<td>k,haut</td>
+							<td class="commande">k,haut</td>
 							<td>monte une ligne au-dessus</td>
 						</tr>
 						<tr>
-							<td>j,bas</td>
+							<td class="commande">j,bas</td>
 							<td>ligne au-dessous</td>
 						</tr>
 						<tr>
-							<td>h,gauche</td>
+							<td class="commande">h,gauche</td>
 							<td>caractère précédent</td>
 						</tr>
 						<tr>
-							<td>l,droite</td>
+							<td class="commande">l,droite</td>
 							<td>caractère suivant</td>
 						</tr>
 						<tr>
-							<td>e/E</td>
+							<td class="commande">e/E</td>
 							<td>renvoit à la fin mot</td>
 						</tr>
 						<tr>
-							<td>gg</td>
+							<td class="commande">gg</td>
 							<td>Se déplacer à la première ligne</td>
 						</tr>
 						<tr>
-							<td>GG</td>
+							<td class="commande">GG</td>
 							<td>Se déplacer à la dernière ligne</td>
 						</tr>
 						<tr>
-							<td>:[numéro]</td>
+							<td class="commande">:[numéro]</td>
 							<td>aller à la ligne numéro</td>
 						</tr>
 				</table>
 				<table>
 					<caption>Edition du Texte</caption>
 						<tr>
-							<td>~</td>
+							<td class="commande">~</td>
 							<td>passer la lettre en maj/min (fonctionne également en mode visuel)</td>
 						</tr>
 						<tr>
-							<td>cw</td>
+							<td class="commande">cw</td>
 							<td>modifier le mot</td>
 						</tr>
 						<tr>
-							<td>c)</td>
+							<td class="commande">c)</td>
 							<td>modifier jusqu'en fin de phrase</td>
 						</tr>
 						<tr>
-							<td>c$</td>
+							<td class="commande">c$</td>
 							<td>modifier jusqu'en fin de ligne</td>
 						</tr>
 						<tr>
-							<td>cc</td>
+							<td class="commande">cc</td>
 							<td>modifier la ligne entière</td>
 						</tr>
 						<tr>
-							<td>a/A</td>
+							<td class="commande">a/A</td>
 							<td>ajout en fin de ligne</td>
 						</tr>
 						<tr>
-							<td>o/O</td>
+							<td class="commande">o/O</td>
 							<td>ouvrir une ligne avant la ligne courante/ouvrir une ligne après la ligne courante</td>
 						</tr>
 						<tr>
-							<td>r</td>
+							<td class="commande">r</td>
 							<td>modifier un caractère</td>
 						</tr>
 						<tr>
-							<td>R</td>
+							<td class="commande">R</td>
 							<td>remplace plusieurs caractères</td>
 						</tr>
 						<tr>
-							<td>:s/aa/bb/g</td>
+							<td class="commande">:s/aa/bb/g</td>
 							<td>modification récursive de la ligne (remplace "aa" par "bb"</td>
 						</tr>
 						<tr>
-							<td>cs"[mot]"</td>
+							<td class="commande">cs"[mot]"</td>
 							<td>modifie le mot entre guillemet</td>
 						</tr>
 						<tr>
-							<td>.</td>
+							<td class="commande">.</td>
 							<td>répète le dernier changement en mode normal</td>
 						</tr>
 				</table>
 				<table>
 					<caption>Suppression</caption>
 						<tr>
-							<td>dw</td>
+							<td class="commande">dw</td>
 							<td>supprimer le mot</td>
 						</tr>
 						<tr>
-							<td>d)</td>
+							<td class="commande">d)</td>
 							<td>supprimer jusqu'en fin de phrase</td>
 						</tr>
 						<tr>
-							<td>D</td>
+							<td class="commande">D</td>
 							<td>supprimer jusqu'en fin de ligne</td>
 						</tr>
 						<tr>
-							<td>dd</td>
+							<td class="commande">dd</td>
 							<td>supprimer la ligne</td>
 						</tr>
 						<tr>
-							<td>x</td>
+							<td class="commande">x</td>
 							<td>supprimer un caractère après le curseur</td>
 						</tr>
 						<tr>
-							<td>X</td>
+							<td class="commande">X</td>
 							<td>supprimer un caractère avant le curseur</td>
 						</tr>
 				</table>

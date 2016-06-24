@@ -39,8 +39,7 @@ h1
 table
 {
 	border-collapse:collapse;
-	width:100%;
-	max-width:75%;
+	width:75%;
 	text-align:left;
 	margin-bottom: 2%;
 	margin:auto;
@@ -48,9 +47,10 @@ table
 
 caption
 {
-	caption-side:top;
+	
 	font-weight:bold;
 	font-style:normal;
+	text-transform: uppercase;
 	margin:3%;
 	text-align: left;
 	color:yellow;
@@ -72,4 +72,31 @@ td
 .commande
 {
 	font-weight: bold;
+}
+
+
+
+/*=========================================*/
+/*=========================================*/
+/*============RESP TEL TAB=================*/
+/*=========================================*/
+/*=========================================*/
+
+@media screen and (max-width: 980px)
+
+{
+
+
+
+section
+{
+	font-size: 1em;
+}
+
+table
+{
+	width:100%;
+}
+
+
 }

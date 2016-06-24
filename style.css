@@ -19,7 +19,7 @@
 
 body
 {
-	font-family: sans-serif;
+	font-family: arial;
 	font-size: 1em;
 }
 
@@ -31,8 +31,7 @@ h1
 	padding:3%;
 	text-align: center;
 	font-size: 2em;
-	border-left: 30%;
-	border-right: 30%;
+	
 
 }
 
@@ -41,15 +40,15 @@ table
 	border-collapse:collapse;
 	width:75%;
 	text-align:left;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	margin:auto;
+
 }
 
 caption
 {
 	
 	font-weight:bold;
-	font-style:normal;
 	text-transform: uppercase;
 	margin:3%;
 	text-align: left;
@@ -58,13 +57,12 @@ caption
 
 table,td
 {
-	border: 1px solid silver;
+	border: 1px solid yellow;
 }
 
 td
 {
-	height: 24px;
-	padding:4px;
+	padding: 1%;
 	vertical-align:middle;
 	font-style:oblique;
 }
